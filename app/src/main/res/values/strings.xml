@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">appAnimal</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="input_email">Email</string>
+    <string name="input_senha">Senha</string>
+    <string name="acao_entrar">Entrar</string>
+    <string name="erro_email_invalido">Email inválido</string>
+    <string name="erro_senha_invalida">Senha muito curta</string>
+    <string name="erro_senha_errada">Senha incorreta</string>
+    <string name="erro_campo_obrigatorio">Campo obrigatório</string>
+    <string name="registrar">Registre-se</string>
 </resources>
