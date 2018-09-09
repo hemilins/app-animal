@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">appAnimal</string>
+    <string name="app_name">App Animal</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_registrar">Registrar</string>
+    <string name="title_activity_main">Principal</string>
 
     <!-- Login e Registrar -->
     <string name="input_email">Email</string>
@@ -17,5 +18,10 @@
     <string name="label_registrar">Registre-se</string>
     <string name="spinner_tipo_instituicao">Tipo de instituição</string>
     <string name="input_telefone">Telefone</string>
+
+    <!-- Menu -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
