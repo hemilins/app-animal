@@ -40,6 +40,12 @@ public class MainActivity extends AppCompatActivity
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.getMenu().getItem(0).setChecked(true);
 
+        if (savedInstanceState == null){
+            getSupportFragmentManager()
+                .beginTransaction()
+                .add(R.id.frame_main, new PrincipalFragment())
+                .commit();
+        }
     }
 
     @Override

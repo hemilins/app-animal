@@ -31,6 +31,7 @@
                 android:inputType="number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:hint="@string/input_cnpj" />
         </android.support.design.widget.TextInputLayout>
 
@@ -83,7 +84,8 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/input_email" />
+                android:hint="@string/input_email"
+                android:inputType="textEmailAddress" />
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
