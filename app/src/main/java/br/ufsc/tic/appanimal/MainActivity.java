@@ -73,9 +73,15 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_sair) {
 
         } else if (id == R.id.nav_configuracao) {
-
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.frame_main, new ConfiguracoesFragment())
+                    .commit();
         } else if (id == R.id.nav_principal) {
-
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.frame_main, new PrincipalFragment())
+                    .commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
